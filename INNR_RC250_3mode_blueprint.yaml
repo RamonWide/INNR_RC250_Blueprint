@@ -40,7 +40,6 @@ blueprint:
           - domain:
             - input_text
           multiple: false
-          reorder: false
     light_target:
       name: Light(s) to affect. To avoid errors, even if you do not use this for lights,
         please select a valid target here.
@@ -51,7 +50,6 @@ blueprint:
           - domain:
             - light
           multiple: true
-          reorder: false
     fixed_section:
       name: Fixed action settings
       description: This is for always doing the same action for each individual button,
@@ -137,7 +135,6 @@ blueprint:
               - domain:
                 - scene
               multiple: false
-              reorder: false
         cycle_scene2:
           name: Scene 2 in the list
           default: []
@@ -147,7 +144,6 @@ blueprint:
               - domain:
                 - scene
               multiple: false
-              reorder: false
         cycle_scene3:
           name: Scene 3 in the list
           default: []
@@ -157,7 +153,6 @@ blueprint:
               - domain:
                 - scene
               multiple: false
-              reorder: false
         cycle_scene4:
           name: Scene 4 in the list
           default: []
@@ -167,7 +162,6 @@ blueprint:
               - domain:
                 - scene
               multiple: false
-              reorder: false
         cycle_scene5:
           name: Scene 5 in the list
           default: []
@@ -177,7 +171,6 @@ blueprint:
               - domain:
                 - scene
               multiple: false
-              reorder: false
         cycle_updown_percentage:
           name: percentage to change per click of the up-down buttons
           selector:
